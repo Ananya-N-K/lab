@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ananya NK | Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f3e5d0;
+            color: #3e2723;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #4e342e;
+            color: #fff8f0;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 26px;
+        }
+
+        nav a {
+            color: #fff8f0;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #d7a86e;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 8%;
+        }
+
+        .profile-card {
+            background: #fffaf3;
+            width: 100%;
+            max-width: 900px;
+            padding: 50px;
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(78, 52, 46, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .profile-image {
+            min-width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: #795548;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff8f0;
+            font-size: 55px;
+            font-weight: bold;
+            border: 8px solid #d7a86e;
+        }
+
+        .profile-content h2 {
+            color: #4e342e;
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .profile-content h3 {
+            color: #795548;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile-content p {
+            font-size: 17px;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .highlight {
+            color: #6d4c41;
+            font-weight: bold;
+        }
+
+        .about {
+            background: #6d4c41;
+            color: #fff8f0;
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        .interests {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .interests h2 {
+            color: #4e342e;
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #fffaf3;
+            width: 230px;
+            padding: 30px 20px;
+            border-radius: 18px;
+            box-shadow: 0 8px 20px rgba(78, 52, 46, 0.15);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: #ead7bd;
+        }
+
+        .card .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #5d4037;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #6d4c41;
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #3e2723;
+            color: #ead7bd;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .profile-card {
+                flex-direction: column;
+                text-align: center;
+                padding: 35px 20px;
+            }
+
+            .profile-content h2 {
+                font-size: 30px;
+            }
+
+            .profile-image {
+                min-width: 150px;
+                width: 150px;
+                height: 150px;
+                font-size: 45px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ananya NK</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#interests">Interests</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="profile-card">
+
+            <div class="profile-image">
+                AN
+            </div>
+
+            <div class="profile-content">
+                <h2>Ananya NK</h2>
+
+                <h3>Student | Explorer | Travel Lover</h3>
+
+                <p>
+                    Hello! I am <span class="highlight">Ananya NK</span>,
+                    a second-year student at
+                    <span class="highlight">Jain Institute of Technology</span>.
+                </p>
+
+                <p>
+                    I enjoy learning new things, traveling to different places,
+                    and exploring new experiences.
+                </p>
+
+                <p>
+                    Welcome to my personal profile!
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am currently pursuing my studies and developing my skills
+            as a student. I believe that every new experience is an
+            opportunity to learn something valuable. Apart from academics,
+            I love traveling and discovering new places, cultures, and
+            beautiful surroundings.
+        </p>
+    </section>
+
+    <section class="interests" id="interests">
+        <h2>My Interests</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">✈️</div>
+                <h3>Traveling</h3>
+                <p>
+                    I love visiting new destinations and experiencing
+                    different cultures.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🌍</div>
+                <h3>Exploring</h3>
+                <p>
+                    I enjoy discovering new places and creating memorable
+                    experiences.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">📚</div>
+                <h3>Learning</h3>
+                <p>
+                    I am always interested in learning new skills and
+                    improving myself.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Ananya NK | Personal Profile</p>
+    </footer>
+
+</body>
+</html>
